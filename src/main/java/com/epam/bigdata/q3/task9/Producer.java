@@ -1,4 +1,4 @@
-package com.epam.bigdata.q3.task9.aux2;
+package com.epam.bigdata.q3.task9;
 
 import com.google.common.io.Resources;
 

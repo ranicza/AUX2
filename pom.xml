@@ -60,7 +60,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.epam.bigdata2016.minskq3.task9.Main</mainClass>
+                            <mainClass>com.epam.bigdata.q3.task9.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
