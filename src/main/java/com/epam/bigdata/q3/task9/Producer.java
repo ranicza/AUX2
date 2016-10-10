@@ -31,7 +31,7 @@ public class Producer {
             producer = new KafkaProducer<>(properties);
         }
 
-        try(Stream<java.nio.file.Path> paths = Files.walk(Paths.get(args[0]))) {
+        try(Stream<java.nio.file.Path> paths = Files.walk(Paths.get(args[1]))) {
             paths.forEach(filePath -> {
                 if (Files.isRegularFile(filePath)) {
                     try(Stream<String> lines = Files.lines(filePath, Charset.forName(ISO))) {
