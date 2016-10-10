@@ -15,6 +15,9 @@ public class Main {
 	            case "producer":
 	                Producer.main(args);
 	                break;
+	            case "consumer":
+	                Consumer.main(args);
+	                break;
 	            default:
 	                throw new IllegalArgumentException("Don't know how to do " + args[0]);
 	        }
