@@ -15,7 +15,7 @@ import java.util.stream.Stream;
 
 
 public class Producer {
-	public static final String TOPIC = "logs-topic";
+	public static final String TOPIC = "log-topic";
 	public static final String SEND = "SEND: ";
 	public static final String ISO = "ISO-8859-1";	
 	public static final String PROPERTIES = "producer.props";	
